@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      },
+      "phoneNumbers": [
+        "+1 123-456-7890",
+        "+1 987-654-3210"
+      ],
+      "active": true,
+      "lastLogin": "2024-12-28T10:00:00Z",
+      "orders": [
+        {
+          "orderId": 101,
+          "orderDate": "2024-12-20T15:30:00Z",
+          "totalAmount": 19.99,
+          "status": "Shipped"
+        },
+        {
+          "orderId": 102,
+          "orderDate": "2024-12-25T09:00:00Z",
+          "totalAmount": 49.95,
+          "status": "Pending"
+        }
+      ],
+      "favoriteColors": ["blue", "green"],
+      "notes": null
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane.smith@example.com",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Othertown",
+        "state": "NY",
+        "zip": "54321"
+      },
+      "phoneNumbers": ["+1 555-123-4567"],
+      "active": false,
+      "lastLogin": null,
+      "orders": [],
+      "favoriteColors": ["red", "yellow"],
+      "notes": "Some important notes"
+    }
+  ]
+}
+

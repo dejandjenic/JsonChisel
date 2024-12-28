@@ -1,0 +1,15 @@
+{
+  "company": {
+    "name": "Acme Corp",
+    "employees": [
+      {
+        "lastName": "Doe",
+        "firstName": "John"
+      },
+      {
+        "lastName": "Smith",
+        "firstName": "Jane"
+      }
+    ]
+  }
+}

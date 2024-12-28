@@ -1,0 +1,28 @@
+{
+  "company": {
+    "name": "Acme Corp",
+    "employees": [
+      {
+        "id": 1,
+        "projects": [
+          {
+            "name": "Project A",
+            "startDate": "2024-11-15",
+            "endDate": "2025-03-15",
+            "status": "In Progress"
+          },
+          {
+            "name": "Project B",
+            "startDate": "2024-12-01",
+            "endDate": null,
+            "status": "Planned"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "projects": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "company": {
+    "name": "Acme Corp",
+    "address": {
+      "street": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345"
+    },
+    "employees": [
+      {
+        "id": 1,
+        "firstName": "John",
+        "lastName": "Doe",
+        "department": "Sales",
+        "projects": [
+          {
+            "name": "Project A",
+            "startDate": "2024-11-15",
+            "endDate": "2025-03-15",
+            "status": "In Progress"
+          },
+          {
+            "name": "Project B",
+            "startDate": "2024-12-01",
+            "endDate": null,
+            "status": "Planned"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "department": "Marketing",
+        "projects": []
+      }
+    ]
+  },
+  "clients": [
+    {
+      "id": 101,
+      "name": "Client A",
+      "contact": {
+        "name": "Alice",
+        "email": "alice@client.com",
+        "phone": "+1 555-123-4567"
+      },
+      "contracts": [
+        {
+          "contractId": "C123",
+          "startDate": "2024-11-01",
+          "endDate": "2025-10-31",
+          "amount": 10000
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Client B",
+      "contact": null,
+      "contracts": []
+    }
+  ]
+}
+

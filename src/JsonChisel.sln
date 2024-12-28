@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonChisel", "JsonChisel.csproj", "{2CF21C2C-4178-4DE0-895A-FFC8D974859C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonChiselTests", "..\tests\JsonChiselTests.csproj", "{CAD59CB3-103A-43B7-A303-365C012F8BD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonChiselExample", "..\example\JsonChiselExample\JsonChiselExample.csproj", "{AC1DA780-77FF-49FF-9C6B-968580C1B466}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CF21C2C-4178-4DE0-895A-FFC8D974859C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF21C2C-4178-4DE0-895A-FFC8D974859C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF21C2C-4178-4DE0-895A-FFC8D974859C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF21C2C-4178-4DE0-895A-FFC8D974859C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD59CB3-103A-43B7-A303-365C012F8BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD59CB3-103A-43B7-A303-365C012F8BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD59CB3-103A-43B7-A303-365C012F8BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD59CB3-103A-43B7-A303-365C012F8BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1DA780-77FF-49FF-9C6B-968580C1B466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1DA780-77FF-49FF-9C6B-968580C1B466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1DA780-77FF-49FF-9C6B-968580C1B466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1DA780-77FF-49FF-9C6B-968580C1B466}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

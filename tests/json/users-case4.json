@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "favoriteColors": [
+        "blue",
+        "green"
+      ],
+      "orders": [
+        {
+          "orderId": 101,
+          "status": "Shipped"
+        },
+        {
+          "orderId": 102,
+          "status": "Pending"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "favoriteColors": [
+        "red",
+        "yellow"
+      ],
+      "orders": []
+    }
+  ]
+}

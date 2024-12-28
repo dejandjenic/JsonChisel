@@ -1,0 +1,8 @@
+{
+  "company": {
+    "name": "Acme Corp",
+    "address": {
+      "city": "Anytown"
+    }
+  }
+}

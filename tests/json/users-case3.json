@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "phoneNumbers": [
+        "\u002B1 123-456-7890",
+        "\u002B1 987-654-3210"
+      ],
+      "active": true
+    },
+    {
+      "id": 2,
+      "phoneNumbers": [
+        "\u002B1 555-123-4567"
+      ],
+      "active": false
+    }
+  ]
+}
