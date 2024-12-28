@@ -40,7 +40,7 @@ jobs:
     - name: Build
       run: dotnet build --no-restore   -p:Version=$BUILD_VERSION src/JsonChisel.csproj
     - name: Test
-      run: dotnet test tests/JsonChiselTests.csproj --no-build --verbosity normal 
+      run: dotnet test tests/JsonChiselTests.csproj --verbosity normal 
       
     - name: Publish
       if: startsWith(github.ref, 'refs/heads/release')
