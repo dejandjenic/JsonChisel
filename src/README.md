@@ -26,6 +26,8 @@ Register the middleware in Program.cs:
 var app = builder.Build();
 
 app.UseMiddleware<JsonChiselMiddleware>();
+//or 
+//app.UseJsonChisel();
 
 // ... rest of your app configuration
 ```
