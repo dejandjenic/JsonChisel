@@ -3,12 +3,12 @@ using Microsoft.AspNetCore.Http;
 
 namespace JsonChisel;
 
-public class FieldsMiddleware
+public class JsonChiselMiddleware
 {
     private readonly RequestDelegate _next;
     private readonly string _headerName;
 
-    public FieldsMiddleware(RequestDelegate next,string headerName = "fields")
+    public JsonChiselMiddleware(RequestDelegate next,string headerName = "fields")
     {
         _next = next;
         _headerName = headerName;

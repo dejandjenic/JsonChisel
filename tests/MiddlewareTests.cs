@@ -30,7 +30,7 @@ public class MiddlewareTests
                     .Configure(app =>
                     {
                         app.UseRouting();
-                        app.UseMiddleware<FieldsMiddleware>();
+                        app.UseJsonChisel();
                         app.UseEndpoints(endpoints =>
                         {
                             endpoints.MapGet("/users", () =>
