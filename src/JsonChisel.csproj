@@ -11,6 +11,7 @@
         <Company>dejandjenic@gmail.com</Company>
         <Product>JsonChisel</Product>
         <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageProjectUrl>https://github.com/dejandjenic/JsonChisel</PackageProjectUrl>
     </PropertyGroup>
 
     <ItemGroup>
